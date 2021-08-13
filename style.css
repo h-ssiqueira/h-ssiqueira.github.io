@@ -1,0 +1,43 @@
+body{
+    background-color: slategrey;
+}
+
+details{
+    /*background-color: red;*/
+    flex-wrap: wrap;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+
+}
+
+h3{
+    text-align: left;
+
+}
+
+hr{
+    background-color: black;
+    color: black;
+    border-width: 0px;
+    height: 1px;
+}
+
+p{
+    font-size: large;
+    flex-wrap: inherit;
+}
+
+summary{
+    text-align: left;
+    font-size: large;
+}
