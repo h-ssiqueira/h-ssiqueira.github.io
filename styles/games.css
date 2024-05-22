@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: var(--color4);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+source {
+    display: block;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+hr {
+    background-color: var(--color1);
+    color: var(--color1);
+    border-width: 0;
+    height: 4px;
+    width: 75%;
+    margin: 5px auto;
+}
+
+#blackjack {
+    width: 80%;
+}
