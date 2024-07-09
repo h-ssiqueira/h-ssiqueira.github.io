@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#disclaimer {
+    font-size: 0.8em;
+    margin: auto;
+}
+
+#contact {
+    text-align: center;
+    background-color: var(--color5);
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#contact > a {
+    padding-top: 5px;
+}
+
+#contact > a:hover {
+    box-shadow: 1px 1.5px 1px .5px rgba(0, 0, 0, 0.554);
+    transition-duration: 0.1s;
+}
+
+#contact img {
+    display: inline;
+}

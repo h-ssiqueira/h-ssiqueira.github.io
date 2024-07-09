@@ -64,6 +64,35 @@ summary {
     font-weight: bold;
 }
 
+ul {
+    list-style-position: inside;
+    columns: 3;
+}
+
+#experience {
+    margin: 0px 0px 0px 20px;
+}
+
+#experience h2, #experience h3, #experience a {
+    text-align: left;
+    margin: 10px 5px;
+    font-weight: bold;
+}
+
+#experience p {
+    margin-left: 5px;
+}
+
+#experience a::after {
+    content: " 🔗";
+    font-size: 0.25em;
+}
+
+.xpSection {
+    text-align: justify;
+    margin-right: 50%;
+}
+
 #workLineSep {
     width: 80%;
     height: 3px;
@@ -76,11 +105,6 @@ summary {
     height: 3px;
     color: var(--color1);
     margin: 5px auto;
-}
-
-#disclaimer {
-    font-size: 0.8em;
-    margin: auto;
 }
 
 #githubActivity {
@@ -112,21 +136,4 @@ summary {
     display: block;
     width: 85%;
     margin: auto;
-}
-
-#contact {
-    text-align: center;
-    background-color: var(--color5);
-    padding-top: 20px;
-    text-decoration: none;
-    font-weight: normal;
-}
-
-#contact > a {
-    padding-top: 5px;
-}
-
-#contact > a:hover {
-    box-shadow: 1px 1.5px 1px .5px rgba(0, 0, 0, 0.554);
-    transition-duration: 0.1s;
 }
