@@ -69,21 +69,21 @@ ul {
     columns: 3;
 }
 
-#experience {
+.experience {
     margin: 0px 0px 0px 20px;
 }
 
-#experience h2, #experience h3, #experience a {
+.experience h2, .experience h3, .experience a {
     text-align: left;
     margin: 10px 5px;
     font-weight: bold;
 }
 
-#experience p {
+.experience p {
     margin-left: 5px;
 }
 
-#experience a::after {
+.experience a::after {
     content: " 🔗";
     font-size: 0.25em;
 }
